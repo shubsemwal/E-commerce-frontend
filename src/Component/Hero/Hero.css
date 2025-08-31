@@ -1,0 +1,105 @@
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-left h2 {
+    font-size: 18px;
+  }
+  .hero-right img {
+    width: 100%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .hero-left h2 {
+    font-size: 22px;
+  }
+  .hero-right img {
+    width: 80%;
+  }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-left h2 {
+    font-size: 26px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .hero-left h2 {
+    font-size: 32px;
+  }
+}
+
+
+.Hero{
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d2d0d1, #f0dcf3);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 150px;
+    padding-left: 90px;
+    gap: 20px;
+    flex: 1;
+    line-height: 1.5;
+}
+.hero-left h2{
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+}
+.hero-left p{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+}
+.hero-hand-icon img{
+    width: 75px;
+    height: 70px;
+}
+.hero-latest-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+    height: 90px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: rgb(243, 127, 127);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+}
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-right img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain; /* or cover if you want full fill */
+}
