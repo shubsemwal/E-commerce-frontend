@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import './Css/LoginSignup.css';
-import  {ShopContext}  from '../Context/ShopContext.jsx'
+import './LoginSignup.css';
 
+import  {ShopContext}  from '../Context/ShopContext.jsx'
 import dropdown_icon from '../Component/Assets/dropdown_icon.png'
 import Item from '../Component/Items/Item'
 
