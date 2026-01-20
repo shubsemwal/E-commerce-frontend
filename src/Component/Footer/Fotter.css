@@ -1,0 +1,139 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo p{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: rgb(59, 58, 58);
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-logo li{
+    cursor: pointer;
+}
+.footer-social-icon{
+    display: flex;
+    gap: 20px;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background-color: white;
+    border: 1px solid white;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 20px;
+}
+.footer-copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: rgb(87, 86, 86);
+}
+@media (max-width: 600px) {
+  .footer {
+    gap: 30px;
+    padding: 20px;
+    margin-top: 800px;
+  }
+
+  .footer-logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-logo p {
+    font-size: 18px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .footer-social-icon {
+    gap: 15px;
+  }
+
+  .footer-copyright {
+    font-size: 14px;
+  }
+}
+
+/* 💻 Laptop (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .footer {
+    gap: 40px;
+    padding: 40px 100px;
+  }
+
+  .footer-logo p {
+    font-size: 22px;
+  }
+
+  .footer-links {
+    gap: 30px;
+    font-size: 20px;
+  }
+
+  .footer-copyright {
+    font-size: 16px;
+  }
+}
+
+/* 📟 Tablet (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .footer {
+    gap: 35px;
+    padding: 30px 60px;
+  }
+
+  .footer-logo {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .footer-logo p {
+    font-size: 20px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .footer-social-icon {
+    gap: 15px;
+  }
+
+  .footer-copyright {
+    font-size: 15px;
+  }
+}
